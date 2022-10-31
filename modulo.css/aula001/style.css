@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poor Story', cursive;
+}
+
+h1 {
+    font-size: 40px;
+    font-style: italic;
+    font-weight: normal;
+    font-family: 'Poor Story', cursive;
+}
+
+.teste {
+    color: blue;
+}
+
+#teste {
+    color: red;
+}
