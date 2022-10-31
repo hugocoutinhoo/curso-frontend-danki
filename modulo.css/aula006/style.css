@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.teste h2.title {
+    color: green;
+}
+
+h2 {
+    color: red;
+}
+
+h2.title {
+    color: blue;
+}
