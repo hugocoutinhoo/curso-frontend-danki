@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wraper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wraper .img{
+    width: 20%;
+    margin: 10px;
+    height: 100%;
+}
+
+img {
+    height: 100%;
+    max-width: 100%;
+    border: 1px solid black;
+}
+
+@media screen and (max-width: 1024px) {
+    .wraper .img{
+        width: 30%;
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .wraper .img{
+        width: 20%;
+        margin: 10px;
+    }
+}
